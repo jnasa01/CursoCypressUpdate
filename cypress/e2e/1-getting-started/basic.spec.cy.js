@@ -27,12 +27,14 @@ describe('Cypress Basic', () => {
 it.only('Should find and interact with an element', () => {
 
     cy.visit('https://wcaquino.me/cypress/componentes.html')
-    cy.screenshot('FormSimples')
-   
-    cy.get('#buttonSimple') 
+    cy.screenshot('HomePage')
+    
+    cy.get('#buttonSimple')
+    
         .click()
                .should('have.value', 'Obrigado!')
-    cy.screenshot('Obrigado')
+               cy.screenshot('Obrigado')
+    
 })
 
 it('Should find and interact with a textarea and digit caracters', () => {

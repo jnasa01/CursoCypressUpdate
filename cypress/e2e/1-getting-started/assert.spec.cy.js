@@ -3,13 +3,9 @@
 it.only('Equality', () =>{
     const a = 1;
     expect(a).equal(1);
-    cy.screenshot('Equality_1')
     expect(a, 'Deveria ser 1').equal(1);
-    cy.screenshot('Equality_2')
     expect(a).to.be.equal(1);
-    cy.screenshot('Equality_3')
     expect('a').not.to.be.equal('b')
-    cy.screenshot('Equality_4')
 })
 
 it('Truthy', () =>{
