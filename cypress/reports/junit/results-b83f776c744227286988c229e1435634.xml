@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="6.746" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-04-22T20:36:46" tests="0" file="cypress\e2e\1-getting-started\basic.spec.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Cypress Basic" timestamp="2024-04-22T20:36:46" tests="2" time="6.739" failures="0">
+    <testcase name="Cypress Basic Should visit a page and assert title" time="1.554" classname="Should visit a page and assert title">
+    </testcase>
+    <testcase name="Cypress Basic Should visit a page and assert button after click" time="2.038" classname="Should visit a page and assert button after click">
+    </testcase>
+  </testsuite>
+</testsuites>

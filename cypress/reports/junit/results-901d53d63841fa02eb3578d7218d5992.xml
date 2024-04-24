@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="5.168" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2024-04-22T20:36:58" tests="0" file="cypress\e2e\1-getting-started\elements.spec.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="work with basic elements" timestamp="2024-04-22T20:36:58" tests="2" time="5.161" failures="0">
+    <testcase name="work with basic elements Text" time="1.168" classname="Text">
+    </testcase>
+    <testcase name="work with basic elements link" time="1.935" classname="link">
+    </testcase>
+  </testsuite>
+</testsuites>
