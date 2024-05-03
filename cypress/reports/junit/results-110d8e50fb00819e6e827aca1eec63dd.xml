@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.077" tests="1" failures="0">
-  <testsuite name="Root Suite" timestamp="2024-04-22T20:37:09" tests="1" file="cypress\e2e\1-getting-started\promises.spec.cy.js" time="0.075" failures="0">
-    <testcase name="sem testes, ainda" time="0.052" classname="sem testes, ainda">
-    </testcase>
-  </testsuite>
-</testsuites>
