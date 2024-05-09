@@ -9,7 +9,7 @@ module.exports = defineConfig({
     },
     cypressMochawesomeReporterReporterOptions: {
       charts: true,
-      reportPageTitle: 'Relatório Execução de Testes',
+      reportPageTitle: 'Relatório Execução de Testes + {Timestamp}',
       embeddedScreenshots: true,
       inlineAssets: true,
       saveAllAttempts: false
@@ -20,5 +20,12 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       require('cypress-mochawesome-reporter/plugin')(on)
     },
+
+    // defaultCommandTimeout: 1000,
+    // execTimeout:60000,
+    // taskTimeout: 60000,
+    // pageLoadTimeout: 60000,
+    // requestTimeout: 5000,
+    // responseTimeout: 30000
   },
 });

@@ -6,7 +6,7 @@ describe('Cypress Basic', () => {
         cy.screenshot('HomePage')
     })
 
-        it('Should visit a page and assert title', () =>{
+        it.only('Should visit a page and assert title', () =>{
             //const title = cy.title()
             //console.log()
 
@@ -20,6 +20,9 @@ describe('Cypress Basic', () => {
                 .should('be.equal', 'Campo de Treinamento')
                 .and('contain', 'Treinamento')
                 
+            cy.title().should(title => {
+                console.log(title)
+            })
                 //TODO imprimir o log no console
                 //Escrever o log em um campo de texto
 
